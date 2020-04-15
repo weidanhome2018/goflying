@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kidoman/embd"
-	"github.com/westphae/goflying/sensors/mpu9250"
+	"github.com/weidanhome2018/embd"
+	"github.com/weidanhome2018/goflying/sensors/mpu9250"
 )
 
 func main() {
