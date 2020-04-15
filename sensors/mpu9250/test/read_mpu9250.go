@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	i2cbus := embd.NewI2CBus(1)
+	i2cbus := embd.NewI2CBus(2)
 
 	var mpus []*mpu9250.MPU9250
 	for i, address := range []byte{mpu9250.MPU_ADDRESS1, mpu9250.MPU_ADDRESS2} {
