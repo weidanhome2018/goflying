@@ -10,10 +10,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/kidoman/embd"
-	_ "github.com/kidoman/embd/host/all" // Empty import needed to initialize embd library.
-	_ "github.com/kidoman/embd/host/rpi" // Empty import needed to initialize embd library.
-	"github.com/westphae/goflying/sensors"
+	"github.com/weidanhome2018/embd"
+	_ "github.com/weidanhome2018/embd/host/all" // Empty import needed to initialize embd library.
+	_ "github.com/weidanhome2018/embd/host/hfga" // Empty import needed to initialize embd library.
+	"github.com/weidanhome2018/goflying/sensors"
 )
 
 const (
